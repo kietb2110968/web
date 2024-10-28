@@ -1,0 +1,64 @@
+body {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f8ff; /* Màu nền nhẹ nhàng */
+    text-align: center;
+}
+
+.class1 {
+    margin: 0 2cm; /* Giảm lề ngang */
+    background: white;
+    border: 5px solid #72A0C1; /* Đường viền mỏng hơn */
+    border-radius: 40px; /* Bo tròn góc */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Thêm bóng cho khung */
+    padding: 15px; /* Giảm khoảng cách bên trong */
+    transition: transform 0.3s; /* Hiệu ứng chuyển động mượt mà */
+}
+
+.class1:hover {
+    transform: scale(1.02); /* Tăng kích thước khi hover */
+}
+
+h1 {
+    color: #72A0C1; /* Màu chữ tiêu đề */
+}
+
+h2 {
+    color: #333; /* Màu chữ tiêu đề phụ */
+}
+
+label {
+    display: block; /* Đưa label ra dòng mới */
+    margin: 5px 0; /* Giảm khoảng cách trên và dưới */
+    font-weight: bold; /* Chữ đậm */
+}
+
+input[type="text"],
+select {
+    width: calc(100% - 16px); /* Chiều rộng 100% trừ đi padding */
+    padding: 8px; /* Giảm khoảng cách bên trong */
+    border: 1px solid #ccc; /* Đường viền nhẹ */
+    border-radius: 5px; /* Bo tròn góc cho input */
+    margin-bottom: 10px; /* Giảm khoảng cách giữa các input */
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+    margin: 0 5px; /* Giảm khoảng cách bên trái và phải */
+}
+
+input[type="submit"] {
+    background-color: #72A0C1; /* Màu nền nút */
+    color: white; /* Màu chữ nút */
+    border: none; /* Bỏ đường viền */
+    padding: 8px 16px; /* Giảm khoảng cách bên trong nút */
+    border-radius: 5px; /* Bo tròn góc cho nút */
+    cursor: pointer; /* Con trỏ khi hover */
+    transition: background-color 0.3s; /* Hiệu ứng chuyển động mượt mà */
+}
+
+input[type="submit"]:hover {
+    background-color: #5b8ba3; /* Tối màu khi hover */
+}
